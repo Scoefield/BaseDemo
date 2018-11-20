@@ -1,2 +1,1 @@
-# Redis-Py
-Python use redis
+# The base demo of python
