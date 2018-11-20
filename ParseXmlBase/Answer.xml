@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<AnswerInfo>
+	<ExamInfo>
+		<StudentID>64180111</StudentID>
+		<StudentName>万书薇</StudentName>
+		<StudentSex>2</StudentSex>
+		<PaperNo>PAPER-222403</PaperNo>
+		<PaperName>201809衢州一模01</PaperName>
+		<PaperFileName>201809衢州一模01.ksj</PaperFileName>
+		<SeatID>51</SeatID>
+		<LocalName>hbjf1-21</LocalName>
+		<LocalIP>192.168.0.31</LocalIP>
+		<ExamDateTime>2018-09-27 08:00:24</ExamDateTime>
+		<ExamTimeID>1</ExamTimeID>
+		<TestRecordFile>TestRecord.mp3</TestRecordFile>
+		<RecordFileCount>14</RecordFileCount>
+		<AheadFinish>0</AheadFinish>
+		<ForceFinish/>
+		<PageIndex>22</PageIndex>
+		<OptionIndex>5</OptionIndex>
+		<GiveupExam>0</GiveupExam>
+		<IsNullAudio/>
+		<HeadsetSN>HP-E10002932</HeadsetSN>
+		<NullFile/>
+	</ExamInfo>
+	<QuestionTypeList><QuestionType><NO>QTYONESEL</NO><Name>单选</Name></QuestionType><QuestionType><NO>QTYMULTISEL</NO><Name>多选</Name></QuestionType><QuestionType><NO>QTYFILL</NO><Name>填空</Name></QuestionType><QuestionType><NO>QTYJUDGE </NO><Name>判断</Name></QuestionType><QuestionType><NO>QTYSPOKEN</NO><Name>口语</Name></QuestionType><QuestionType><NO>QTYVIDEO</NO><Name>视频跟读</Name></QuestionType><QuestionType><NO>QTYLINE</NO><Name>连线</Name></QuestionType><QuestionType><NO>QTYSIMPLE</NO><Name>文字简答</Name></QuestionType><QuestionType><NO>QTYCOMPOSE</NO><Name>文字作文</Name></QuestionType></QuestionTypeList>
+	<SectionList><Section><NO>BQT-341840</NO><Name>第一题  模仿朗读</Name><ParentNo>0</ParentNo></Section><Section><NO>BQT-924944</NO><Name>第二题  信息辨析</Name><ParentNo>0</ParentNo></Section><Section><NO>BQT-250318</NO><Name>第三题  回答问题</Name><ParentNo>0</ParentNo></Section><Section><NO>BQT-599854</NO><Name>第四题  信息转述及询问</Name><ParentNo>0</ParentNo></Section></SectionList>
+	<QuestionList><Question><NO>QT-946583</NO><Name>1</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-341840</SectionNO><Answer>QT-946583ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-168599</NO><Name>2-1</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-924944</SectionNO><Answer>QT-168599ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-663545</NO><Name>2-2</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-924944</SectionNO><Answer>QT-663545ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-643806</NO><Name>2-3</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-924944</SectionNO><Answer>QT-643806ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-294969</NO><Name>2-4</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-924944</SectionNO><Answer>QT-294969ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-751492</NO><Name>2-5</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-924944</SectionNO><Answer>QT-751492ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-897451</NO><Name>3-1</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-250318</SectionNO><Answer>QT-897451ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-503146</NO><Name>3-2</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-250318</SectionNO><Answer>QT-503146ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-872034</NO><Name>3-3</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-250318</SectionNO><Answer>QT-872034ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-47445</NO><Name>3-4</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-250318</SectionNO><Answer>QT-47445ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-835620</NO><Name>3-5</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-250318</SectionNO><Answer>QT-835620ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-621748</NO><Name>4-1</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-599854</SectionNO><Answer>QT-621748ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-24283</NO><Name>4-2</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-599854</SectionNO><Answer>QT-24283ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question><Question><NO>QT-442733</NO><Name>4-3</Name><TypeNO>QTYSPOKEN</TypeNO><SectionNO>BQT-599854</SectionNO><Answer>QT-442733ans.mp3</Answer><Value/><CheckResult>0</CheckResult></Question></QuestionList>
+</AnswerInfo>
