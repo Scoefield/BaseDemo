@@ -83,6 +83,13 @@ class TestList(Base):
 
 
 class TestSet(Base):
+    """
+    sadd: 增加元素
+    srem: 删除元素
+    sinter: 返回几个集合的交集
+    sunion: 返回几个集合的并集
+    sdiff: 返回几个集合的不同元素
+    """
 
     def test_sadd(self):
         '''sadd: 增加元素'''
@@ -109,6 +116,54 @@ class TestSet(Base):
         resunion = self.r.sunion('animals', 'zoors')
         print(resunion)
 
+    def test_sdiff(self):
+        '''sdiff: 返回几个集合的不同元素'''
+        resdiff = self.r.sdiff('animals', 'zoors')
+        print(resdiff)
+
+class TestHash(Base):
+    """
+    hset/get: 设置/获取散列值
+    hmset/hmget: 设置/获取多对散列值
+    hsetnx: 如果散列存在则不设置
+    hkeys/hvals: 返回所有keys/values
+    hlen: 返回散列包含域的数量
+    hdel: 删除散列指定的域
+    hexeist: 判断是否存在
+    """
+    
+    def test_hset(self):
+        '''hset: 设置散列值'''
+        rehset = self.r.hset('news', 'title', 'news title')
+        print(rehset)
+
+    def test_hget(self):
+        '''hget: 获取散列值'''
+        rehget = self.r.hget('news', 'title')
+        print(rehget)
+
+    def test_hmset(self):
+        '''hmset: 设置多个散列值'''
+        news = {
+            'content': 'some news contents',
+            'describe': 'some news describes'
+        }
+        rehmset = self.r.hmset('news', news)
+        print(rehmset)
+
+    def test_hmget(self):
+        '''hmget: 获取多个散列值'''
+        nkeys = ['title', 'content', 'describe']
+        rehmget = self.r.hmget('news', nkeys)
+        print(rehmget)
+
+    def test_hkys(self):
+        '''hkeys/hvals: 返回所有keys/values'''
+        rehkeys = self.r.hkeys('news')
+        print(rehkeys)
+        rehvals = self.r.hvals('news')
+        print(rehvals)
+
 
 def main():
     # strobj = TestString()
@@ -123,11 +178,19 @@ def main():
     # tlist.test_push()
     # tlist.test_pop()
 
-    tset = TestSet()
+    # tset = TestSet()
     # tset.test_sadd()
     # tset.test_srem()
     # tset.test_sinter()
-    tset.test_sunion()
+    # tset.test_sunion()
+    # tset.test_sdiff()
+
+    thash = TestHash()
+    # thash.test_hset()
+    # thash.test_hget()
+    # thash.test_hmset()
+    # thash.test_hmget()
+    thash.test_hkys()
 
 
 if __name__ == "__main__":
